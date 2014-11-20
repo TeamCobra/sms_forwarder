@@ -4,7 +4,7 @@
   "description": "A demo app for presenting ouroboros",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node target/app.js"
   },
   "dependencies": {
     "express": "~4.9.x"
