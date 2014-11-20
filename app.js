@@ -5,7 +5,8 @@ var app = express();
 // code for forwarding the sms in the right
 // format for our mongoose server
 forwardMessage = function(req, res) {
-  // code goes here. use req.body to get text info
+  var message = req.body.Body;
+  console.log(message);
 }
 
 // this parses the body of the post request
