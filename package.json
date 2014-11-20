@@ -2,7 +2,7 @@
   "name": "sms-forwarder-demo",
   "version": "0.8.0",
   "description": "A demo app for presenting ouroboros",
-  "main": "app.js",
+  "main": "target/app.js",
   "scripts": {
     "start": "node target/app.js"
   },
